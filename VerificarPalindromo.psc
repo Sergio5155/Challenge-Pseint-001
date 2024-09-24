@@ -7,11 +7,10 @@ Algoritmo VerificarPalindromo
 	Para i<-lo Hasta 1 con paso -1 Hacer
 		inversa=inversa+Subcadena(palabra,i,i)
 	fin para
-	Escribir inversa
 	si palabra=inversa Entonces
-		Escribir "es palindromo"
+		Escribir ,Palabra , " es palindromo"
 	sino
-		Escribir "no es palindromo"
+		Escribir,Palabra, " no es palindromo"
 	FinSi
 	
 FinAlgoritmo
